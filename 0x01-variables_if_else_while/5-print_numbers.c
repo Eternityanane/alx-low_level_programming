@@ -10,9 +10,8 @@ int main(void)
 
 	char i;
 
-	for (i = 'a'; i <= 'z'; i++)
-		if (i != 'e' && i != 'q')
-			putchar(i);
-	putchar('\n');
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
+	printf("\n");
 	return (0);
 }
